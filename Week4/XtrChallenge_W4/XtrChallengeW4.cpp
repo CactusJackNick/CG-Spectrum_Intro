@@ -13,7 +13,7 @@ int main()
 
 int GenerateRandomNumber()
 {
-    int randomNumber = 1 + (rand() % 98); //generate random number between 0 and 99
+    int randomNumber = (rand() % 100); //generate random number between 0 and 99
 
     cout << "Press the ENTER key to generate the number ";
     if (cin.get() == '\n') // Checks if the user presses ENTER
