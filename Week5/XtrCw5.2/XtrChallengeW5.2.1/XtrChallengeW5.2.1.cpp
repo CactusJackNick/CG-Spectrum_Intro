@@ -17,9 +17,9 @@ using namespace std;
     
     cout << "The number " << number << " is: " << endl;
 
-    number > 0 ? cout << "It is Positive !" << endl : cout << "This number is NOT Positive !" << endl;
-    number % 2 == 0 ? cout << "It is Even !" << endl : cout << "It is NOT Even !" << endl;
-    number % 5 == 0 ? cout << "It is Divisible by 5!" << endl : cout << "It is NOT Divisible by 5!" << endl;
+    outIsPositive ? cout << "It is Positive !" << endl : cout << "This number is NOT Positive !" << endl;
+    outIsEven ? cout << "It is Even !" << endl : cout << "It is NOT Even !" << endl;
+    outIsDivisibleBy5 ? cout << "It is Divisible by 5!" << endl : cout << "It is NOT Divisible by 5!" << endl;
 
     return 0;
 }
