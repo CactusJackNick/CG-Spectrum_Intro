@@ -13,7 +13,7 @@ using namespace std;
     cout << "Please input a number to get some info about it: " ;
     cin >> number;
 
-    int analyseNumber(int number, bool& outIsPositive, bool& outIsEven, bool& outIsDivisibleBy5);
+    analyseNumber(number, outIsPositive, outIsEven, outIsDivisibleBy5);
     
     cout << "The number " << number << " is: " << endl;
 
